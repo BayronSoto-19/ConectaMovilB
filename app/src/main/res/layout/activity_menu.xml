@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido al Menú!"
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnVerPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Perfil"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnListaUsuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Usuarios"/>
+
+    <Button
+        android:id="@+id/btnCrudUsuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRUD Usuarios"/>
+
+    <Button
+        android:id="@+id/btnMensajeria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensajería"/>
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"/>
+</LinearLayout>
